@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Navbar = () => {
+const Index = () => {
   return (
     <div>
-      Navbar
+      hero
     </div>
   )
 }
 
-export default Navbar
+export default Index

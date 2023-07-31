@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.yellow{
+  color: rgb(255, 237, 0);
+}
+.blue{
+  color: rgb(22, 57, 98);
+}
