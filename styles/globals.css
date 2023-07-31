@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600&family=Montserrat:wght@100&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.yellow{
-  color: rgb(255, 237, 0);
+html{
+  scroll-behavior: smooth;
 }
-.blue{
-  color: rgb(22, 57, 98);
+.homepageBanner{
+  background-image: url(./../public/img/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.aboutHeader{
+  font-family: 'Handjet', cursive;
+  font-weight: 500;
 }

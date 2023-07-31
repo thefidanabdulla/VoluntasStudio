@@ -6,7 +6,7 @@ const Index = ({ children }) => {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <main className="relative">{children}</main>
       <Footer />
     </>
   );
