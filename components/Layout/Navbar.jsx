@@ -13,6 +13,7 @@ const Navbar = () => {
         <div>
           <div className='flex items-center gap-4'>
             <Link href={'/'} className='text-white text-xl hover:text-[#f6dc41] transition-all'>Home</Link>
+            <Link href={'/about'} className='text-white text-xl hover:text-[#f6dc41] transition-all'>About</Link>
             <Link href={'/team'} className='text-white text-xl hover:text-[#f6dc41] transition-all'>Team</Link>
             <Link href={'/contact'} className='text-white text-xl hover:text-[#f6dc41] transition-all'>Contact</Link>
           </div>
