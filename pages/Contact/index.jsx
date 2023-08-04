@@ -1,6 +1,21 @@
-import React from 'react'
+import React, {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
 const Index = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_m7y8mm5', 'template_u02txln', form.current, 'S1O5X4Lbx_wAh8QEX')
+      .then((result) => {
+          console.log(result.text);
+          console.log('success');
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <div className=''>
       <div className='w-full flex justify-center bg-[#23282c]'>
@@ -21,10 +36,10 @@ const Index = () => {
             </p>
           </div>
           <div className='pt-10'>
-            <form className='flex flex-col gap-2 w-[300px] md:w-[330px] lg:w-[400px]'>
-              <input type='email' required placeholder='Email' className='p-2 rounded-md border-none outline-none bg-[#ffffff50] text-white' />
-              <textarea  required placeholder='Message' rows={4} className='p-2 resize-none rounded-md border-none outline-none bg-[#ffffff50] text-white' ></textarea>
-              <button className='w-full text-white  bg-[#FBD808] font-bold p-4 rounded-md'>Send</button>
+            <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-2 w-[300px] md:w-[330px] lg:w-[400px]'>
+              <input  name="user_email" type='email' required placeholder='Email' className='p-2 rounded-md border-none outline-none bg-[#ffffff50] text-white' />
+              <textarea  name="message"   required placeholder='Message' rows={4} className='p-2 resize-none rounded-md border-none outline-none bg-[#ffffff50] text-white' ></textarea>
+              <button type='submit' className='w-full text-white  bg-[#FBD808] font-bold p-4 rounded-md'>Send</button>
             </form>
           </div>
         </div>
