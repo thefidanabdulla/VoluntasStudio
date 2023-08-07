@@ -15,6 +15,7 @@ import seid from "../../public/img/seid.jpg";
 import shams from "../../public/img/shams.jpg";
 import vuqar from "../../public/img/vuqar.jpg";
 import TeamMember from "@/components/TeamMember/TeamMember";
+import banner3 from '../../public/img/banner2.jpg';
 
 const Team = () => {
   const teamData = [
@@ -93,8 +94,9 @@ const Team = () => {
   ];
   return (
     <div>
-      <div className="w-full teamBanner xl:h-screen md:h-[80vh] h-[60vh] flex flex-col items-center">
-        <div className="h-full xl:w-[1200px] w-full relative ">
+      <div className="w-full  xl:h-screen md:h-[80vh] h-[60vh] flex flex-col items-center relative">
+      <Image src={banner3} alt='voluntas banner' className='w-full h-full object-cover'  />
+        <div className="h-full xl:w-[1200px] w-full absolute top-0 left-1/2 -translate-x-1/2 ">
           <div className="absolute top-[140px]  md:top-[350px] left-1/2 -translate-x-1/2 xl:left-0 xl:translate-x-0 flex flex-col xl:items-start items-center">
             <div>
               <Image
