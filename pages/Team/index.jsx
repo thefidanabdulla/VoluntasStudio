@@ -5,7 +5,7 @@ import voluntasLogo from "../../public/img/voluntasLogo.png";
 import aydan from "../../public/img/aydan.jpg";
 import elnur_art from "../../public/img/elnur_art.jpg";
 import elnur_dev from "../../public/img/elnur_dev.jpg";
-import ferid from "../../public/img/ferid.jpg";
+import abbas from "../../public/img/Abbas.jpeg";
 import feriqe from "../../public/img/feriqe.jpg";
 import fidan from "../../public/img/fidan.jpg";
 import nurai from "../../public/img/nurai.jpg";
@@ -62,23 +62,18 @@ const Team = () => {
       img: elnur_dev,
     },
     {
+      id: "member9",
+      name: "Abbas Ramazanov",
+      profession: "Unreal Engine Developer ",
+      img: abbas,
+    },
+    {
       id: "member8",
       name: "Şəms Mustafayeva",
       profession: "3d Character Artist",
       img: shams,
     },
-    {
-      id: "member9",
-      name: "Fərid Abdullayev",
-      profession: "Animator ",
-      img: ferid,
-    },
-    {
-      id: "member10",
-      name: "Nuray Hüseynova",
-      profession: "Marketing",
-      img: nurai,
-    },
+    
     {
       id: "member11",
       name: "Fəriqə Camallı",
@@ -97,7 +92,7 @@ const Team = () => {
       <div className="w-full  xl:h-screen md:h-[80vh] h-[60vh] flex flex-col items-center relative">
       <Image src={banner3} alt='voluntas banner' className='w-full h-full object-cover'  />
         <div className="h-full xl:w-[1200px] w-full absolute top-0 left-1/2 -translate-x-1/2 ">
-          <div className="absolute top-[140px]  md:top-[350px] left-1/2 -translate-x-1/2 xl:left-0 xl:translate-x-0 flex flex-col xl:items-start items-center">
+          <div className="absolute top-[140px]  md:top-[200px] left-1/2 -translate-x-1/2 xl:left-0 xl:translate-x-0 flex flex-col xl:items-start items-center">
             <div>
               <Image
                 src={voluntasLogo}

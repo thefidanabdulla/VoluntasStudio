@@ -9,7 +9,7 @@ const Index = () => {
     <div className='w-full  xl:h-screen md:h-[80vh] h-[60vh] flex justify-center'>
       <Image src={banner1} alt='voluntas banner' className='w-full h-full object-cover'  />
       <div className='h-full xl:w-[1200px] w-full absolute top-0 left-1/2 -translate-x-1/2 '>
-        <div className='absolute top-[140px]  md:top-[350px] left-1/2 -translate-x-1/2 xl:left-0 xl:translate-x-0 flex flex-col xl:items-start items-center'> 
+        <div className='absolute top-[140px]  md:top-[200px] left-1/2 -translate-x-1/2 xl:left-0 xl:translate-x-0 flex flex-col xl:items-start items-center'> 
           <div>
             <Image src={voluntasLogo} alt='Voluntas Logo' className='w-[250px] xl:w-[400px]'/>
           </div>
