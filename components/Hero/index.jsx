@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react';
 import voluntasLogo from '../../public/img/voluntasLogo.png'
 import Link from 'next/link';
-import banner1 from '../../public/img/banner1.jpg';
+import banner1 from '../../public/img/concept_home.png';
 
 const Index = () => {
   return (

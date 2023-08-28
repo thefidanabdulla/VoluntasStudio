@@ -40,7 +40,7 @@ const Team = () => {
     {
       id: "member4",
       name: "Səid Cəlilzadə",
-      profession: "Lead Developer",
+      profession: "Lead Unity Developer",
       img: seid,
     },
     {
