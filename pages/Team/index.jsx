@@ -68,13 +68,6 @@ const Team = () => {
       img: abbas,
     },
     {
-      id: "member8",
-      name: "Şəms Mustafayeva",
-      profession: "3d Character Artist",
-      img: shams,
-    },
-    
-    {
       id: "member11",
       name: "Fəriqə Camallı",
       profession: "SMM ",
