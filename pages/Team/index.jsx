@@ -73,12 +73,6 @@ const Team = () => {
       profession: "SMM ",
       img: feriqe,
     },
-    {
-      id: "member12",
-      name: "Vüqar Hüseynli",
-      profession: "Finance Manager",
-      img: vuqar,
-    },
   ];
   return (
     <div>
